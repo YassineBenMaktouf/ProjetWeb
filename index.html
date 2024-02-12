@@ -1,42 +1,159 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <title>Yassine Ben Maktouf</title>
 </head>
 <body>
+    <header>
+        <a href="#" class="logo"> Yassine </a>
+        <nav class="navigation">
+            <a href="#Services">Services</a>
+            <a href="#projects">Projects</a>
+            <a href="#career">Career</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
 
-<header>
-    <div>
-        <h1><a href="index.html">HOME</a></h1>
-    </div>
-    <div>
-        <h1>
-            <a href="personal_inforamtions.html">Personal information</a>
-            &nbsp; <a href="contact.html">Contact </a>
-            &nbsp;  <a href="projects.html">Projects </a>
-            &nbsp; <a href="parcour_academique.html">Academic Career</a>
-        </h1>
-    </div>
-</header>
+    <section class="main">
+        <div>
+            <h2>Hello, I'm Yassine<br><span>IT Student</span></h2>
+            <h3>Future engineer </h3>
+            <a href="https://github.com/YassineBenMaktouf/" class="main-btn">View my work</a>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/yassine-ben-maktouf-3ab5662a2/"><i class="fa-brands fa-linkedin" style="color: #0c3a64;"></i></a>
+                <a href="https://www.facebook.com/benmaktoufyassine/"><i class="fa-brands fa-facebook" style="color: #0c3a64;"></i></a>
+                <a href="https://www.instagram.com/yassine_ben_maktouf/"><i class="fa-brands fa-instagram" style="color: #0c3a64;"></i></a>
+                <a href="https://github.com/YassineBenMaktouf/"><i class="fa-brands fa-github" style="color: #0c3a64;"></i></a>
+            </div>
+        </div>
+    </section>
 
-<section>
-    <table>
-        <tr>
-            <td>
-                <img src="img/profile.jpg" alt="my image">
-            </td>
-            <td>
-                <h1>YASSINE BEN MAKTOUF </h1>
-                <h2>STUDENT</h2>
-                <h3>IT ENGINEERING </h3>
-            </td>
-        </tr>
-    </table>
-</section>
+    <section class="cards" id="Services">
+        <h2 class="title"> Services</h2>
+        <div class="content">
+            <div class="card">
+                <div class="icon">
+                    <i class="fas fa-edit"></i>
+                </div>
+                <div class="info">
+                    <h3>script writing</h3>
+                    <p>Research and write scripts for different topics </p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="icon">
+                    <i class="fa-solid fa-code"></i>
+                </div>
+                <div class="info">
+                    <h3> Development </h3>
+                    <p>Front-end Development</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="icon">
+                    <i class="fa-solid fa-headset"></i>
+                </div>
+                <div class="info">
+                    <h3> Gaming</h3>
+                    <p> video games player</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="projects" id="projects">
+        <h2 class="title">Projects </h2>
+        <div class="content">
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="images/myapp.png" />
+                </div>
+                <div class="project-info">
+                    <p class="project-category"> Programing Project</p>
+                    <strong class="project-title">
+                        <span>ETS app</span>
+                        <a href="https://github.com/YassineBenMaktouf/projetc" class="more-details">more-details</a>
+                    </strong>
+                </div>
+            </div>
+        </div>
 
+    </section>
+    <section class="career" id="career">
+        <h2 class="career">Career</h2>
+        <div class="content">
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="images/esprit-logo.jpg" />
+                </div>
+                <div class="project-info">
+                    <p class="project-category"> my university</p>
+                    <strong class="project-title">
+                        <span></span>
+                        <a href="https://www.esprit.tn/" class="more-details">more-details about Esprit</a>
+                    </strong>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="images/ipeit-logo.png" />
+                </div>
+                <div class="project-info">
+                    <p class="project-category"> prepa university</p>
+                    <strong class="project-title">
+                        <span></span>
+                        <a href="http://www.ipeit.rnu.tn/fr/node" class="more-details">more-details about ipeit</a>
+                    </strong>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="cards contact" id="contact">
+        <h2 class="title"> Let's work together</h2>
+        <div class="content">
+            <div class="card">
+                <div class="icon">
+                    <i class="fas fa-phone"></i>
+                </div>
+                <div class="info">
+                    <h3>Phone</h3>
+                    <p>+216 54516791</p>
+                </div>
+            </div>
+            <div class="card">
+                <a href=""></a>
+                <div class="icon">
+                    <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div class="info">
+                    <h3> Email </h3>
+                    <p>yassine.benmaktouf@esprit.tn </p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="icon">
+                    <i class="fa-brands fa-facebook"></i>
+                </div>
+                <div class="info">
+                    <h3> Facebook </h3>
+                    <p>Yassine Ben Maktouf </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <p class="footer-title">copyrights @ <span>Yassine Ben Maktouf</span></p>
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/yassine-ben-maktouf-3ab5662a2/"><i class="fa-brands fa-linkedin" style="color: #0c3a64;"></i></a>
+            <a href="https://www.facebook.com/benmaktoufyassine/"><i class="fa-brands fa-facebook" style="color: #0c3a64;"></i></a>
+            <a href="https://www.instagram.com/yassine_ben_maktouf/"><i class="fa-brands fa-instagram" style="color: #0c3a64;"></i></a>
+            <a href="https://github.com/YassineBenMaktouf/"><i class="fa-brands fa-github" style="color: #0c3a64;"></i></a>
+        </div>
+    </footer>
+    
 </body>
 </html>
